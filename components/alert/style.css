@@ -1,0 +1,24 @@
+:host {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    border: 1px solid #c03a2b;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #e74d3ca6;
+}
+
+button {
+    background-color: #c03a2ba2;
+    border: 1px solid #c03a2b;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: white;
+    font-size: 12pt;
+}
+
+button:hover{
+    background-color: #6b1f16;
+    cursor: pointer;
+}

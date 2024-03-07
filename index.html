@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>webcomponents test</h1>
+        <meine-komponente>
+            <div id="component" slot="header">test</div>
+            test
+        </meine-komponente>
+        <script type="module" src="./components/alert/component.js"></script>
+        <script>
+            const meineKomponente = document.querySelector('meine-komponente');
+            meineKomponente.addEventListener("build", (e) => {
+                alert("button wurde gedrückt");
+            } )
+        </script>
+    </body>
+</html>
